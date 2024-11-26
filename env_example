@@ -2,3 +2,8 @@ OPENPROJECT_SECRET_KEY_BASE=
 OPENPROJECT_HOST__NAME=
 OPENPROJECT_HTTPS=false
 OPENPROJECT_DEFAULT__LANGUAGE=fr
+
+OPENPROJECT_SEED_ADMIN_USER_PASSWORD="admin" # Password to set for the admin user
+OPENPROJECT_SEED_ADMIN_USER_PASSWORD_RESET="true" # Whether to force a password reset on first login (true/false)
+OPENPROJECT_SEED_ADMIN_USER_NAME="OpenProject Admin" # Name to assign to that user (First and lastnames will be split on the space character)
+OPENPROJECT_SEED_ADMIN_USER_MAIL="admin@example.net" # Email attribute to assign to that user. Note that in packaged installations, a wizard step will assign this variable as well.
